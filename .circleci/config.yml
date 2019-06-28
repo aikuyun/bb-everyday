@@ -1,6 +1,4 @@
-# Use the latest 2.1 version of CircleCI pipeline processing engine, see https://circleci.com/docs/2.0/configuration-reference/
-version: 2.1
-# Orchestrate or schedule a set of jobs, see https://circleci.com/docs/2.0/workflows/
+version: 2
 jobs:
   build:
     docker:
@@ -20,6 +18,7 @@ jobs:
       - run: git push https://$GITHUB_LOGIN:$GITHUB_PASSWORD@github.com/$GITHUB_LOGIN/bb_everyday.git
       - run: echo 'done'
 workflows:
+  version: 2
   scheduled-workflow:
     triggers:
       - schedule:
