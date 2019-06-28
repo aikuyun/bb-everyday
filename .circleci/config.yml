@@ -20,7 +20,6 @@ jobs:
       - run: git push https://$GITHUB_LOGIN:$GITHUB_PASSWORD@github.com/$GITHUB_LOGIN/bb_everyday.git
       - run: echo 'done'
 workflows:
-  version: 2.1
   scheduled-workflow:
     triggers:
       - schedule:
