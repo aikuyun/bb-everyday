@@ -57,9 +57,9 @@ def bundle_summary_section():
     issues_html_url = 'https://github.com/%s/bb_everyday/issues' % user.get_user().login
 
     summary_section = '''
-# GitHub Issues Blog :tada::tada::tada:
+# 每天写点 :grimacing:
 
-> :alarm_clock: 上次更新: %s
+> :two_hearts: 上次更新: %s
 
 共 [%s](%s) 个标签, [%s](%s) 篇博文.
 ''' % (cur_time, total_label_count, labels_html_url, total_issue_count, issues_html_url)
@@ -73,7 +73,7 @@ def bundle_pinned_issues_section():
     pinned_label = bb_everyday.get_label(':+1:置顶')
     pinned_issues = bb_everyday.get_issues(labels=(pinned_label,))
 
-    pinned_issues_section = '\n## 置顶 :thumbsup: \n'
+    pinned_issues_section = '\n## 置顶 :top: \n'
 
     for issue in pinned_issues:
         pinned_issues_section += format_issue(issue)
@@ -93,7 +93,7 @@ def format_issue_with_labels(issue: Issue):
         labels_str += sub('[%s](https://github.com/%s/bb_everyday/labels/%s)\t|\t' % (
             label.name, user.get_user().login, urllib.parse.quote(label.name)))
 
-    return '- [%s](%s) %s  \t\t\t :alarm_clock:%s %s\n\n' % (
+    return '- [%s](%s) %s  \t\t\t :stuck_out_tongue_winking_eye:%s %s\n\n' % (
         issue.title, issue.html_url, sup('%s :speech_balloon:' % issue.comments), sub(issue.created_at), labels_str)
 
 
@@ -114,7 +114,7 @@ def bundle_list_by_labels_section():
     global bb_everyday
     global user
 
-    list_by_labels_section = '## 分类  :card_file_box: \n'
+    list_by_labels_section = '## 分类  :yum: \n'
 
     all_labels = bb_everyday.get_labels()
 
