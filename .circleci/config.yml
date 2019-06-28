@@ -25,7 +25,6 @@ jobs:
       - run: git commit -m "Update From Circle CI"
       - run: git push https://$GITHUB_LOGIN:$GITHUB_PASSWORD@github.com/$GITHUB_LOGIN/bb_everyday.git
       - run: echo 'done'
-
 workflows:
   version: 2
   scheduled-workflow:
