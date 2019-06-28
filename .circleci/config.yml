@@ -4,7 +4,6 @@ jobs:
   build:
     docker:
       - image: circleci/python:latest
-    working_directory: ~/circleci-demo-workflows
     steps:
       - checkout
       # Run python script
