@@ -154,10 +154,6 @@ def execute():
     summary_section = bundle_summary_section()
     print(summary_section)
 
-    # 4. pinned issues section
-    # pinned_issues_section = bundle_pinned_issues_section()
-    # print(pinned_issues_section)
-
     # 5. new created section
     new_created_section = bundle_new_created_section()
     print(new_created_section)
@@ -170,7 +166,7 @@ def execute():
     about_me_section = bundle_about_me_section()
     print(about_me_section)
 
-    contents = [summary_section, pinned_issues_section, new_created_section, list_by_labels_section, about_me_section]
+    contents = [summary_section, new_created_section, list_by_labels_section, about_me_section]
     update_readme_md_file(contents)
 
     print('README.md updated successfully!!!')
