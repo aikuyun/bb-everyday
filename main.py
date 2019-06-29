@@ -170,8 +170,8 @@ def execute():
     print(summary_section)
 
     # 4. pinned issues section
-    pinned_issues_section = bundle_pinned_issues_section()
-    print(pinned_issues_section)
+    # pinned_issues_section = bundle_pinned_issues_section()
+    # print(pinned_issues_section)
 
     # 5. new created section
     new_created_section = bundle_new_created_section()
