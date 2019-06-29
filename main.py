@@ -66,21 +66,6 @@ def bundle_summary_section():
 
     return summary_section
 
-
-def bundle_pinned_issues_section():
-    global bb_everyday
-
-    pinned_label = bb_everyday.get_label(':+1:置顶')
-    pinned_issues = bb_everyday.get_issues(labels=(pinned_label,))
-
-    pinned_issues_section = '\n## 置顶 :top: \n'
-
-    for issue in pinned_issues:
-        pinned_issues_section += format_issue(issue)
-
-    return pinned_issues_section
-
-
 def format_issue_with_labels(issue: Issue):
     global user
 
