@@ -1,14 +1,32 @@
 
 # 每天写点 :grimacing:
 
-> :two_hearts: 上次更新: 2019-06-30 11:05:20
+> :two_hearts: 上次更新: 2019-07-01 11:05:29
 
-共 [1](https://github.com/aikuyun/bb_everyday/labels) 个标签, [1](https://github.com/aikuyun/bb_everyday/issues) 篇博文.
+共 [3](https://github.com/aikuyun/bb_everyday/labels) 个标签, [3](https://github.com/aikuyun/bb_everyday/issues) 篇博文.
 ## 最新 :new: 
+- [Go 学习笔记-持续更新（汇总）](https://github.com/aikuyun/bb_everyday/issues/3) <sup>0 :speech_balloon:</sup>  			 :stuck_out_tongue_winking_eye:<sub>2019-07-01 02:19:35</sub> 
+ :label: 	<sub>|</sub><sub>[Go](https://github.com/aikuyun/bb_everyday/labels/Go)	|	</sub>
+
+- [Hive 优化实践](https://github.com/aikuyun/bb_everyday/issues/2) <sup>0 :speech_balloon:</sup>  			 :stuck_out_tongue_winking_eye:<sub>2019-07-01 02:01:25</sub> 
+ :label: 	<sub>|</sub><sub>[Hive](https://github.com/aikuyun/bb_everyday/labels/Hive)	|	</sub>
+
 - [经济学-需求和需求量](https://github.com/aikuyun/bb_everyday/issues/1) <sup>0 :speech_balloon:</sup>  			 :stuck_out_tongue_winking_eye:<sub>2019-06-28 02:26:35</sub> 
  :label: 	<sub>|</sub><sub>[经济学](https://github.com/aikuyun/bb_everyday/labels/%E7%BB%8F%E6%B5%8E%E5%AD%A6)	|	</sub>
 
 ## 分类  :yum: 
+
+<details>
+<summary>Go	<sup>1:newspaper:</sup></summary>
+- [Go 学习笔记-持续更新（汇总）](https://github.com/aikuyun/bb_everyday/issues/3)  <sup>0 :speech_balloon:</sup>  	 :alarm_clock:<sub>2019-07-01 02:19:35</sub> 
+
+</details>
+
+<details>
+<summary>Hive	<sup>1:newspaper:</sup></summary>
+- [Hive 优化实践](https://github.com/aikuyun/bb_everyday/issues/2)  <sup>0 :speech_balloon:</sup>  	 :alarm_clock:<sub>2019-07-01 02:01:25</sub> 
+
+</details>
 
 <details>
 <summary>经济学	<sup>1:newspaper:</sup></summary>
